@@ -1,1 +1,150 @@
-hghg
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="module2solutionstyyle.css">
+
+</head>
+<body>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+  }
+  h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+  }
+  section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+  }
+  p {
+    position: relative;
+    clear: right;
+  }
+  div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  .chicken {
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: blue;
+    
+  }
+  .beef {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: red;
+    
+  }
+  .shushi {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: yellow;
+    
+  }
+  .material {
+    padding: 10px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 210px;
+    overflow: auto;
+  }
+  
+  .row {
+    width: 90%;
+  }
+  
+  /*large view*/
+  @media (min-width: 992px){
+    .column-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+  }
+  /*tablet view*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .colmn-md-6 {
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .colmn-md-12 {
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  /*mobile view*/
+  @media (max-width: 767px){
+    .colmn-sm-12 {
+      float: left;
+      width: 100%;
+    }
+  }
+</style>
+
+<h1 class="h1">Our Menu</h1>
+
+<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <div>
+      <p class="chicken">Chicken</p>
+      <p class="material"> lorem ipsum dolor sit amet, consectetur,sed do ecumesed tempor inciduent ut labor et dolore magna aliqua. Ut enim od minim veniam , quis nasturd excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur,sed do ecumesed tempor inciduent ut labor et dolore magna aliqua. Ut enim od minim veniam , quis nasturd excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+  </section>
+  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <div>
+      <p class="beef">Beef</p>
+      <p class="material"> lorem ipsum dolor sit amet, consectetur,sed do ecumesed tempor inciduent ut labor et dolore magna aliqua. Ut enim od minim veniam , quis nasturd excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur,sed do ecumesed tempor inciduent ut labor et dolore magna aliqua. Ut enim od minim veniam , quis nasturd excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+      </p>
+      
+    </div>
+  </section>
+  <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+  <div>
+    <p class="shushi">Shushi</p>
+      <p class="material"> lorem ipsum dolor sit amet, consectetur,sed do ecumesed tempor inciduent ut labor et dolore magna aliqua. Ut enim od minim veniam , quis nasturd excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.lorem ipsum dolor sit amet, consectetur,sed do ecumesed tempor inciduent ut labor et dolore magna aliqua. Ut enim od minim veniam , quis nasturd excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+  </div>
+
+</body>
+</html>
